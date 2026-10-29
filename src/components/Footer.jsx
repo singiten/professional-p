@@ -6,19 +6,19 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-slate-50 dark:bg-[#0B1120] border-t border-rose-100 dark:border-slate-800 pt-16 pb-8 px-6">
+    <footer className="bg-slate-50 dark:bg-[#0B1120] border-t border-amber-100/50 dark:border-slate-800 pt-16 pb-8 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           
           {/* Column 1: Brand & Bio */}
           <div className="space-y-4">
             <a href="#" className="text-2xl font-bold tracking-tighter text-slate-800 dark:text-white">
-              Singiten<span className="text-rose-600 dark:text-rose-400">.dev</span>
+              Singiten<span className="text-amber-600 dark:text-amber-400">.dev</span>
             </a>
             <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed max-w-xs">
               Full-Stack Developer & Cybersecurity Specialist based in Addis Ababa, Ethiopia. Building secure, production-ready systems.
             </p>
-            <div className="inline-flex items-center gap-2 bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/50 px-3 py-1.5 rounded-full text-xs font-semibold text-rose-600 dark:text-rose-400">
+            <div className="inline-flex items-center gap-2 bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/50 px-3 py-1.5 rounded-full text-xs font-semibold text-amber-600 dark:text-amber-400">
               <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
               Open for Opportunities
             </div>
@@ -75,7 +75,7 @@ const Footer = () => {
           
           <button 
             onClick={scrollToTop}
-            className="flex items-center gap-2 bg-rose-600 dark:bg-rose-500 text-white px-4 py-2 rounded-full font-medium hover:bg-rose-700 dark:hover:bg-rose-600 transition-colors"
+            className="flex items-center gap-2 bg-amber-500 dark:bg-amber-600 text-white px-4 py-2 rounded-full font-medium hover:bg-rose-700 dark:hover:bg-rose-600 transition-colors"
           >
             <FiArrowUp /> Back to Top
           </button>

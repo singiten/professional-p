@@ -37,14 +37,14 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 px-6 max-w-6xl mx-auto border-t border-rose-100 dark:border-slate-800">
+    <section id="contact" className="py-24 px-6 max-w-6xl mx-auto border-t border-amber-100/50 dark:border-slate-800">
       <motion.div 
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className="text-center mb-16"
       >
-        <h2 className="text-sm font-bold tracking-widest text-rose-600 dark:text-rose-400 uppercase mb-2">Get In Touch</h2>
+        <h2 className="text-sm font-bold tracking-widest text-amber-600 dark:text-amber-400 uppercase mb-2">Get In Touch</h2>
         <h3 className="text-4xl md:text-5xl font-bold">Contact Me</h3>
       </motion.div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
           </p>
 
           <div className="flex items-center gap-4">
-            <div className="bg-rose-50 dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-rose-100 dark:border-slate-700 text-rose-600 dark:text-rose-400">
+            <div className="bg-amber-50/50 dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-amber-100/50 dark:border-slate-700 text-amber-600 dark:text-amber-400">
               <FiMail size={24} />
             </div>
             <div>
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="bg-rose-50 dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-rose-100 dark:border-slate-700 text-rose-600 dark:text-rose-400">
+            <div className="bg-amber-50/50 dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-amber-100/50 dark:border-slate-700 text-amber-600 dark:text-amber-400">
               <FiPhone size={24} />
             </div>
             <div>
@@ -82,7 +82,7 @@ const Contact = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="bg-rose-50 dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-rose-100 dark:border-slate-700 text-rose-600 dark:text-rose-400">
+            <div className="bg-amber-50/50 dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-amber-100/50 dark:border-slate-700 text-amber-600 dark:text-amber-400">
               <FiMapPin size={24} />
             </div>
             <div>
@@ -97,7 +97,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-rose-100 dark:border-slate-700"
+          className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-amber-100/50 dark:border-slate-700"
         >
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
@@ -137,7 +137,7 @@ const Contact = () => {
             <button 
               type="submit" 
               disabled={status === 'sending'}
-              className="w-full bg-rose-600 dark:bg-rose-500 text-white py-3.5 rounded-xl font-medium hover:bg-rose-700 dark:hover:bg-rose-600 transition-colors flex items-center justify-center gap-2 disabled:opacity-70"
+              className="w-full bg-amber-500 dark:bg-amber-600 text-white py-3.5 rounded-xl font-medium hover:bg-rose-700 dark:hover:bg-rose-600 transition-colors flex items-center justify-center gap-2 disabled:opacity-70"
             >
               {status === 'sending' ? 'Sending...' : status === 'success' ? 'Message Sent!' : status === 'error' ? 'Failed to send' : <><FiSend /> Send Message</>}
             </button>

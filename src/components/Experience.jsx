@@ -43,7 +43,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-24 px-6 max-w-4xl mx-auto">
       <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
-        <h2 className="text-sm font-bold tracking-widest text-rose-600 dark:text-rose-400 uppercase mb-2">Professional History</h2>
+        <h2 className="text-sm font-bold tracking-widest text-amber-600 dark:text-amber-400 uppercase mb-2">Professional History</h2>
         <h3 className="text-4xl md:text-5xl font-bold">Work & Leadership</h3>
       </motion.div>
 
@@ -51,14 +51,14 @@ const Experience = () => {
         {experiences.map((exp, index) => (
           <motion.div key={index} initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: index * 0.1 }} className="mb-12 ml-8 relative">
             
-            <div className="absolute -left-[49px] top-1 bg-rose-600 dark:bg-rose-500 text-white p-2 rounded-full ring-4 ring-white dark:ring-slate-900 shadow-md">
+            <div className="absolute -left-[49px] top-1 bg-amber-500 dark:bg-amber-600 text-white p-2 rounded-full ring-4 ring-white dark:ring-slate-900 shadow-md">
               {exp.icon}
             </div>
 
             <div className="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 hover:shadow-md transition-shadow">
               <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
                 <h4 className="text-xl font-bold text-slate-800 dark:text-white">{exp.title}</h4>
-                <span className="text-sm font-semibold text-rose-600 dark:text-rose-400 bg-rose-600/10 dark:bg-rose-400/10 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">
+                <span className="text-sm font-semibold text-amber-600 dark:text-amber-400 bg-rose-600/10 dark:bg-rose-400/10 px-3 py-1 rounded-full mt-2 md:mt-0 w-fit">
                   {exp.date}
                 </span>
               </div>

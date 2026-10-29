@@ -23,7 +23,7 @@ const ProjectDetails = () => {
       </Link>
 
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <div className="inline-block bg-rose-50 dark:bg-rose-950/30 text-rose-600 dark:text-rose-400 text-sm font-bold px-3 py-1 rounded-full mb-4">
+        <div className="inline-block bg-rose-50 dark:bg-rose-950/30 text-amber-600 dark:text-amber-400 text-sm font-bold px-3 py-1 rounded-full mb-4">
           {project.role}
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">{project.title}</h1>

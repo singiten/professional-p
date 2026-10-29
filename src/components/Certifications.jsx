@@ -91,11 +91,11 @@ const Certifications = () => {
               <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">{cert.issuer}</p>
               <p className="text-xs font-semibold text-slate-400 mb-4">{cert.date}</p>
               
-              <a 
+                           <a 
                 href={cert.link} 
                 target="_blank" 
                 rel="noreferrer"
-                className="mt-auto flex items-center justify-center gap-2 w-full py-2 bg-burgundy-500/10 text-burgundy-500 rounded-lg font-medium text-sm hover:bg-burgundy-500 hover:text-white transition-colors"
+                className="mt-auto flex items-center justify-center gap-2 w-full py-2.5 bg-amber-500 text-white rounded-lg font-medium text-sm hover:bg-amber-600 transition-colors shadow-sm"
               >
                 View Certificate <FiExternalLink size={14} />
               </a>

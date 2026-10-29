@@ -12,7 +12,7 @@ const Projects = () => {
         viewport={{ once: true, margin: "-100px" }}
         className="text-center mb-16"
       >
-        <h2 className="text-sm font-bold tracking-widest text-rose-600 dark:text-rose-400 uppercase mb-2">Portfolio</h2>
+        <h2 className="text-sm font-bold tracking-widest text-amber-600 dark:text-amber-400 uppercase mb-2">Portfolio</h2>
         <h3 className="text-4xl md:text-5xl font-bold">Featured Projects</h3>
       </motion.div>
 
@@ -24,7 +24,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="group bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-2xl overflow-hidden border border-rose-100/50 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-rose-200 transition-all duration-300 flex flex-col"
+            className="group bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-2xl overflow-hidden border border-amber-100/50/50 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-rose-200 transition-all duration-300 flex flex-col"
           >
             <div className="relative h-48 overflow-hidden bg-slate-200 dark:bg-slate-700 shrink-0">
               <div className="absolute top-3 left-3 z-10 bg-slate-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -48,7 +48,7 @@ const Projects = () => {
               
               <div className="flex flex-wrap gap-2 mb-6 mt-auto">
                 {project.tech.slice(0, 3).map((tag, i) => (
-                  <span key={i} className="text-xs font-semibold bg-rose-50 dark:bg-rose-900/30 text-rose-600 dark:text-rose-400 px-2.5 py-1 rounded-md">
+                  <span key={i} className="text-xs font-semibold bg-rose-50 dark:bg-rose-900/30 text-amber-600 dark:text-amber-400 px-2.5 py-1 rounded-md">
                     {tag}
                   </span>
                 ))}
@@ -62,7 +62,7 @@ const Projects = () => {
               {/* NEW: View Details Button */}
               <Link 
                 to={`/project/${project.id}`}
-                className="w-full flex items-center justify-center gap-2 py-2.5 bg-rose-50 dark:bg-slate-700 text-rose-600 dark:text-rose-400 rounded-lg font-medium text-sm hover:bg-rose-600 hover:text-white dark:hover:bg-rose-500 transition-colors"
+                className="w-full flex items-center justify-center gap-2 py-2.5 bg-rose-50 dark:bg-slate-700 text-amber-600 dark:text-amber-400 rounded-lg font-medium text-sm hover:bg-rose-600 hover:text-white dark:hover:bg-rose-500 transition-colors"
               >
                 View Details <FiArrowRight />
               </Link>

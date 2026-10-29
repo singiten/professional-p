@@ -7,11 +7,19 @@
 html { scroll-behavior: smooth; }
 
 body {
-  @apply bg-slate-50 text-slate-800 transition-colors duration-300;
-  background-image: radial-gradient(at 0% 0%, hsla(343, 60%, 95%, 1) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(343, 60%, 95%, 1) 0, transparent 50%);
+  /* Softer, warmer off-white background */
+  @apply bg-[#FDFDFD] text-slate-800 transition-colors duration-300;
+  /* Subtle gold ambient glow in the top corners */
+  background-image: radial-gradient(at 0% 0%, hsla(45, 80%, 90%, 0.4) 0, transparent 50%), 
+                    radial-gradient(at 100% 0%, hsla(45, 80%, 90%, 0.4) 0, transparent 50%);
+  background-attachment: fixed;
 }
 
 .dark body {
-  @apply bg-slate-900 text-slate-200;
-  background-image: radial-gradient(at 0% 0%, hsla(343, 60%, 15%, 0.4) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(343, 60%, 15%, 0.4) 0, transparent 50%);
+  /* Deep black for dark mode */
+  @apply bg-[#0B0F19] text-slate-200;
+  /* Darker gold ambient glow for dark mode */
+  background-image: radial-gradient(at 0% 0%, hsla(45, 80%, 20%, 0.15) 0, transparent 50%), 
+                    radial-gradient(at 100% 0%, hsla(45, 80%, 20%, 0.15) 0, transparent 50%);
+  background-attachment: fixed;
 }
