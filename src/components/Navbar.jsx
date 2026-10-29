@@ -39,7 +39,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 dark:bg-[#0B0F19]/80 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold tracking-tighter">
-          Singiten<span className="text-amber-600 dark:text-amber-400">.dev</span>
+          Singiten<span className="text-amber-600 dark:text-amber-400">.FullStack</span>
         </a>
 
         <div className="hidden md:flex space-x-8 items-center">

@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Column 1: Brand & Bio */}
           <div className="space-y-4">
             <a href="#" className="text-2xl font-bold tracking-tighter text-slate-800 dark:text-white">
-              Singiten<span className="text-amber-600 dark:text-amber-400">.dev</span>
+              Singiten<span className="text-amber-600 dark:text-amber-400">.FullStack</span>
             </a>
             <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed max-w-xs">
               Full-Stack Developer & Cybersecurity Specialist based in Addis Ababa, Ethiopia. Building secure, production-ready systems.

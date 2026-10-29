@@ -50,7 +50,7 @@ export const projectsData = [
     description: "An e-commerce platform designed specifically for students to buy and sell items directly from campus.",
     fullDescription: "U Shop solves the problem of campus commerce. I built the entire platform using the MERN stack. It includes secure authentication, a dynamic shopping cart, state management using Redux, and a seamless checkout experience. The challenge was ensuring the UI remained fast and responsive even with hundreds of product listings.",
     tech: ["MERN", "Redux", "Stripe", "Tailwind"],
-    image: "/u-shop.jpg",
+    image: "/u-shop.png",
     github: "https://github.com/singiten",
     live: "#",
   },
@@ -76,16 +76,16 @@ export const projectsData = [
     github: "https://github.com/singiten",
     live: "#",
   },
-  {
-    id: "holiday-checker",
-    title: "Holiday Checker",
+    {
+    id: "flora",
+    title: "Flora - Mini Social Media",
     role: "Full-Stack (Solo)",
-    description: "A cultural web app allowing users to explore Ethiopian holidays, complete with descriptions, historical context, and upcoming dates.",
-    fullDescription: "Holiday Checker is a cultural preservation tool. It allows users to view both fixed and moving Ethiopian holidays (like Fasika and Meskel). I chose the PERN stack for this project because PostgreSQL was perfect for handling the complex relational data (dates, cultural descriptions, and historical context). The React frontend dynamically renders the upcoming holidays based on the current date.",
-    tech: ["PERN", "PostgreSQL", "React", "Express", "Node.js"],
-    image: "/holiday-checker.jpg",
+    description: "A social media web application featuring user authentication, post creation, commenting, and follow/unfollow functionality.",
+    fullDescription: "Flora was built to understand the core mechanics of social networking platforms. I developed the entire application from scratch using React for the frontend and Node.js/Express for the backend. Key features include secure JWT authentication, a fully functional comment system, and real-time follow/unfollow actions. I also implemented responsive design and optimized the database queries using MongoDB to ensure fast feed loading times.",
+    tech: ["MERN", "MongoDB", "Socket.io", "JWT", "Tailwind"],
+    image: "/flora.jpg", 
     github: "https://github.com/singiten",
     live: "#",
-  }
+  },
   
 ];
