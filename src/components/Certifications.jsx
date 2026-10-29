@@ -8,42 +8,42 @@ const Certifications = () => {
       issuer: "ALX Africa",
       date: "Sept 2026",
       image: "/cert-alx.png",
-      link: "#"
+      link: "https://drive.google.com/file/d/13T8deI4F4sy59Jw0geW7zeNfYNKgA9vK/view?usp=sharing"
     },
     {
       title: "Artificial Intelligence Fundamentals",
       issuer: "Udacity",
       date: "Nov 2025",
       image: "/cert-udacity-ai.jpg",
-      link: "#"
+      link: "https://drive.google.com/file/d/1i0df32oHheNNzLdgNb3lN5N0vb69EJQk/view?usp=sharing"
     },
     {
       title: "Android Developer Fundamentals",
       issuer: "Udacity",
       date: "Nov 2025",
       image: "/cert-udacity-android.jpg",
-      link: "#"
+      link: "https://drive.google.com/file/d/1ZXnl_iv0BZkXMAvs4wb2BOI-O-xtIc4W/view?usp=sharing"
     },
     {
       title: "STARK Official Hackathon",
       issuer: "STARK",
       date: "Oct 2026",
       image: "/cert-stark.jpeg",
-      link: "#"
+      link: "https://drive.google.com/file/d/1v2rf-oXz7x8wsMNHS49Gacqlb3QPAtOt/view?usp=sharing"
     },
     {
       title: "Software Development Internship",
       issuer: "ElevateSkill plc",
       date: "Aug 2026",
       image: "/cert-elevate.jpg",
-      link: "#"
+      link: "https://drive.google.com/file/d/1iIrG_0_TjKLmbcfkd7zrlZq1HmHdcesJ/view?usp=sharing"
     },
     {
       title: "AI Literacy",
       issuer: "IBM SkillsBuild",
       date: "July 2026",
       image: "/cert-ibm-ai.jpg",
-      link: "#"
+      link: "https://drive.google.com/file/d/1zFRDOpXVvz91SXO5O6MFYza_J5sNf1YF/view?usp=sharing"
     }
   ];
 
